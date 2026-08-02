@@ -15,7 +15,7 @@
 # limitations under the License.
 
 from .configuration_pi0 import PI0Config
-from .modeling_pi0 import PI0Policy
+from .modeling_pi0 import PI0Policy, PI0VLAContext
 from .processor_pi0 import make_pi0_pre_post_processors
 
-__all__ = ["PI0Config", "PI0Policy", "make_pi0_pre_post_processors"]
+__all__ = ["PI0Config", "PI0Policy", "PI0VLAContext", "make_pi0_pre_post_processors"]
